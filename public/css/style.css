@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper-img-banner {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.img-banner {
+    width: 100%;
+    height: 500px;
+}
+
+.img-about {
+    border-radius: 3%;
+    box-shadow: 8px 4px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.wrapper-service {
+    max-width: 100%;
+    max-height: 500px;
+}
+
+.img-service {
+    width: 75%;
+    height: 200px;
+}
+
+.home-land {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #133961;
+}
+
+a.selengkapnya {
+    background-color: rgb(46, 154, 249);
+    color: white;
+    font-weight: 600;
+}
+
+a.selengkapnya:hover {
+    background-color: rgb(39, 128, 206);
+    color: white;
+}
+
+
+.about p {
+    color: #3d3d3d;
+    font-weight: 500;
+}
+
+.hero-about {
+    background-color: rgb(46, 154, 249);
+    color: rgb(241, 247, 251);
+}
+
+.hero-about h3 {
+    font-weight: 700;
+    font-size: 5rem;
+}
+
+.hero-about p {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.container-serve {
+    background-color: #133961;
+    padding: 5%;
+}
+
+.services .row .card h4, .services .row .card p{
+    color: #000000;
+}
+
+.services-land {
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+}
+
+.services h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.services p {
+    color: white;
+    font-weight: 500;
+}
+
+.container .contact h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+    color: #133961;
+    margin-bottom: 0;
+}
+
+.container .contact p {
+    font-weight: 500;
+    font-size: 1rem;
+    color: #133961;
+    margin-bottom: 20px;
+}
+
+.container .contact a {
+    color: white;
+    text-decoration: none;
+}
+
+.container-serve a {
+    background-color: rgb(46, 154, 249);
+    color: white;
+    font-weight: 600;
+}
+
+
+.hero-about p {
+    color: white;
+}
+
+.serve {
+    background-color: rgb(46, 154, 249);
+    color: rgb(241, 247, 251);
+}
+
+.serve h3 {
+    font-weight: 700;
+    font-size: 5.5rem;
+    color: white;
+}
+
+section h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #133961;
+}
+
+section .row {
+    gap: 50px;
+}
+
+.cont {
+    display: flex;
+    gap: 30px;
+}
+
+.cont h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #133961;
+}
+
+.contact-bg {
+    background-color: #f0efef;
+}
+
+.cont-land {
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(46, 154, 249);
+}
+
+.contact .describe p{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.contact .describe h3 {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #000000;
+}
+
+.contact .describe h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.contact .describe h5 {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.contact .describe h6 {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.client-container {
+    border-radius: 20px;
+    background-color: white;
+    box-shadow:  0 0 0.5em #c7c7c7;
+}
+
+.client-container h2 {
+    font-weight: 800;
+    font-size: 2rem;
+    color: #133961;
+}
+
+.client {
+    padding-bottom: 200px;
+}
+
+/* footer */
+.footer-land {
+    background-color: rgb(43, 141, 226);
+}
+
+.footer-land h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.footer-desc a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    margin-right: 20px;
+    font-weight: 400;
+}
+
+.footer-desc a:hover{
+    background-color: #2e73bd;
+    padding: 5px;
+}
+
+.footer-land2 {
+    background-color: rgb(43, 141, 226);
+}
+
+.footer-land2 p {
+    color: white;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.footer-land3 {
+    background-color: rgb(29, 122, 203);
+}
+
+.footer-land3 p {
+    color: white;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.footer-land4 {
+    background-color: #133961;
+}
+
+.footer-land4 p {
+    color: white;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.footer-land4 span {
+    color: white;
+    font-weight: 500;
+    font-size: 0.8rem;
+}
+
+.sejarah p {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.visi .container {
+    background-color: #00B0F0;
+    border-radius: 20px;
+    color: white;
+    padding: 50px 100px;
+}
+
+.visi .container .col h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.visi .container .col p {
+    font-weight: 300;
+    margin-bottom: 80px;
+}
+
+.kenapa-wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.kenapa-cont {
+    gap: 30px;
+}
+
+.kenapa-cont h4{
+    color: #133961;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.kenapa .container .row {
+    margin-top: 30px;
+}
+
+.struktur .container img {
+    border-radius: 20px;
+}
+
+.visi .vismis h1 {
+    color: #133961;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.visi .vismis p {
+    margin-bottom: 0;
+}
+
+.kenapa h2, .visi h2, .struktur h2, .servetext h2 {
+    color: #133961;
+    font-size: 1.8rem;
+    font-weight: 800;
+}
