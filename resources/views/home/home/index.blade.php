@@ -9,7 +9,7 @@
     <div class="carousel-inner">
         <div class="carousel-item active">
             <div class="wrapper-img-banner">
-                <img src="/img/look3.png" class="img-banner" alt="">
+                <img src="/img/look3.png" class="img-banner" alt="" loading="lazy">
             </div>
             <div class="container">
             </div>
