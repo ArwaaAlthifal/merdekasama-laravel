@@ -31,11 +31,11 @@
         <div class="about my-5 ">
             <div class="row align-items-center ">
                 <div class="col">
-                    @if($data && $data->cover)
-                    <img src="{{ asset('storage/' . $data->cover) }}" alt="..." />
-                    @else
-                    <p>Gambar belum tersedia</p>
-                    @endif
+                   @if($about && $about->cover)
+<img src="{{ asset('storage/' . $about->cover) }}" alt="..." />
+@else
+<p>Gambar belum tersedia</p>
+@endif
                 </div>
                 <div class="col">
                     <h3 class="home-land mb-0">Tentang Kami</h3>
