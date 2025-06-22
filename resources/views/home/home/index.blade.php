@@ -32,11 +32,7 @@
         <div class="about my-5 ">
             <div class="row align-items-center ">
                 <div class="col">
-                    @if($about && $about->cover)
-                        <img src="{{ asset('storage/' . $about->cover) }}" alt="..." />
-                    @else
-                        <p>Gambar belum tersedia</p>
-                    @endif
+                    <img class="img-about" src="/{{ $about->cover }}" width="100%" alt="">
                 </div>
                 <div class="col">
                     <h3 class="home-land mb-0">Tentang Kami</h3>
